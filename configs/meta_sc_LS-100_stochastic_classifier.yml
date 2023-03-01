@@ -1,0 +1,63 @@
+train:
+  way: 5
+  shot: 5
+  num_session: 9
+  num_base: 60
+  num_novel: 40
+  num_all: 100
+  start_session: 0
+  test_times: 100
+  seq_sample: false
+  tmp_train: false
+  Method: test
+  batch_size_base: 128
+  lamda_proto: !!float 0.6
+  stochastic: true
+  model_dir:
+    s3c_model_dir: null # for stdu
+    tmp_model_dir: null # stdu temp model paht
+    s0_model_dir: null # session 0's final model path
+    sf_model_dir: null # final session's model path
+  seed: 0
+  epochs:
+    epochs_base: 200
+    epochs_new: 100
+  lr:
+    lr_std: !!float 0.1
+    lr_base: !!float 0.1
+    lr_new: !!float 0.1
+    lr_cec_base: 0.0002
+    lr_sis_base: 0.0002
+    lrg: !!float 0.0002  #lr for graph attention
+  scheduler: 
+    schedule: Step # ['Step', 'Milestone']
+    milestones: [40, 80]
+    step: 40
+    gamma: !!float 0.5
+  optimizer:
+    decay: !!float 0.0005
+    momentum: !!float 0.9
+  network:
+    temperature: 16
+    base_mode: ft_cos  # ['ft_dot', 'ft_cos']
+    new_mode: avg_cos  # ['ft_dot', 'ft_cos', 'avg_cos'] ft_dot means using linear classifier, ft_cos means using cosine classifier, avg_cos means using average data embedding and cosine classifier
+  strategy:
+    data_init: true
+    data_init_new: true
+    set_no_val: false
+    seq_sample: false
+  episode:
+    train_episode: 50
+    episode_way: 5
+    episode_shot: 5
+    episode_query: 15
+    low_way: 5
+    low_shot: 5
+  dataloader:
+    num_workers: 8
+    train_batch_size: 128
+    test_batch_size: 100
+
+
+
+
