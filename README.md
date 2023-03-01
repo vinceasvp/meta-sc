@@ -4,7 +4,7 @@
 
 ## Datasets
 
-To study the Few-shot Class-incremental Audio Classification (FCAC) problem, three datasets of LS-100 dataset and NSynth-100 dataset are constructed by choosing samples from audio corpora of the [Librispeech](https://www.openslr.org/12/) dataset, the [NSynth](https://magenta.tensorflow.org/datasets/nsynth) dataset respectively. Wei Xie, one of our team members, constructed the NSynth-100 dataset
+To study the Few-shot Class-incremental Audio Classification (FCAC) problem, LS-100 dataset and NSynth-100 dataset are constructed by choosing samples from audio corpora of the [Librispeech](https://www.openslr.org/12/) dataset, the [NSynth](https://magenta.tensorflow.org/datasets/nsynth) dataset respectively. Wei Xie, one of our team members, constructed the NSynth-100 dataset
 
 The detailed information of the LS-100 dataset and NSynth-100 dataset are given below.
 
