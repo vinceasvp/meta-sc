@@ -82,7 +82,6 @@ LibriSpeech is a corpus of approximately 1000 hours of 16kHz read English speech
 Our project references the codes in the following repos.
 
 - [CEC](https://github.com/icoz69/CEC-CVPR2021)
-- [S3C](https://github.com/JAYATEJAK/S3C)
 
 ## Contact
 
