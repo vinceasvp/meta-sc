@@ -83,12 +83,6 @@ Our project references the codes in the following repos.
 
 - [CEC](https://github.com/icoz69/CEC-CVPR2021)
 
-## Contact
-
-Yanxiong Li ([eeyxli@scut.edu.cn](mailto:eeyxli@scut.edu.cn)) and Wenchang Cao ([eewenchangcao@mail.scut.edu.cn](mailto:eewenchangcao@mail.scut.edu.cn))
-
-School of Electronic and Information Engineering, South China University of Technology, Guangzhou, China
-
 ## Citation
 
 Please cite our paper if you find the codes and datasets are useful for your research.
