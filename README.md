@@ -85,5 +85,7 @@ Our project references the codes in the following repos.
 
 ## Citation
 
-Please cite our paper if you find the codes and datasets are useful for your research.
+Please cite our paper (shown below) if you find the codes and datasets are useful for your research.
+
+[1] Yanxiong Li, Wenchang Cao, Jialong Li, Wei Xie, and Qianhua He, "Few-shot class-incremental audio classification using stochastic classifier," in Proc. of INTERSPEECH, Dublin, Ireland, 20-24 Aug., 2023.
 
